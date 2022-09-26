@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:o="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options">
+
+    <SolidColorBrush x:Key="Brush.PrimaryFill" Color="#6200EE" o:Freeze="True" />
+
+    <SolidColorBrush x:Key="Brush.BackgroundFill" Color="#FFF" o:Freeze="True" />
+    <SolidColorBrush x:Key="Brush.SurfaceFill" Color="#FFF" o:Freeze="True" />
+    <SolidColorBrush x:Key="Brush.ErrorFill" Color="#B00020" o:Freeze="True" />
+
+
+    <SolidColorBrush x:Key="Brush.OnPrimary.High" Color="#FFF" o:Freeze="True" />
+    <SolidColorBrush x:Key="Brush.OnPrimary.Medium" Color="#BDFFFFFF" o:Freeze="True" />
+    <SolidColorBrush x:Key="Brush.OnPrimary.Low" Color="#61FFFFFF" o:Freeze="True" />
+
+    <SolidColorBrush x:Key="Brush.OnSurface.High" Color="#DE000000" o:Freeze="True" />
+    <SolidColorBrush x:Key="Brush.OnSurface.Medium" Color="#99000000" o:Freeze="True" />
+    <SolidColorBrush x:Key="Brush.OnSurface.Low" Color="#61000000" o:Freeze="True" />
+
+    <SolidColorBrush x:Key="Brush.OnError" Color="#FFF" o:Freeze="True" />
+
+
+    <SolidColorBrush x:Key="Brush.OutlineStroke" Color="#29000000" o:Freeze="True" />
+    <SolidColorBrush x:Key="Brush.DividerStroke" Color="#29000000" o:Freeze="True" />
+
+</ResourceDictionary>
