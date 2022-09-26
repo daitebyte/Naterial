@@ -1,11 +1,13 @@
 ﻿<Application x:Class="Naterial.Demo.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             StartupUri="/Naterial.Demo;component/Views/MainWindow.xaml">
+             StartupUri="/Naterial.Demo;component/Views/MainWindow.xaml"
+             Startup="OnStartup">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://application:,,,/Naterial;component/Themes/Light.xaml" />
+                <!-- To ensure theming, the URI of resource dictionary must be absolute and case-sensitive. -->
+                <ResourceDictionary Source="pack://application:,,,/Naterial.Demo;component/Themes/Light.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/Naterial;component/Themes/Default.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>

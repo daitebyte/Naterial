@@ -8,5 +8,16 @@ namespace Naterial.Demo.Views
         {
             InitializeComponent();
         }
+
+
+        private bool _isDark;
+
+
+        private void ThemeToggle_OnClick(object sender, RoutedEventArgs e)
+        {
+            _isDark = !_isDark;
+
+            ThemeHelper.SetTheme(Application.Current.Resources, _isDark ? ThemeMode.Dark : ThemeMode.Light);
+        }
     }
 }

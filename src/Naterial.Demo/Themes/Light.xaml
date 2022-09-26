@@ -1,0 +1,16 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:o="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/Naterial;component/Themes/Light.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <SolidColorBrush x:Key="Brush.SecondaryFill" Color="#03DAC6" o:Freeze="True" />
+
+
+    <SolidColorBrush x:Key="Brush.OnSecondary.High" Color="#000000" o:Freeze="True" />
+    <SolidColorBrush x:Key="Brush.OnSecondary.Medium" Color="#BD000000" o:Freeze="True" />
+    <SolidColorBrush x:Key="Brush.OnSecondary.Low" Color="#61000000" o:Freeze="True" />
+
+</ResourceDictionary>
