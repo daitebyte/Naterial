@@ -5,10 +5,14 @@
         <ResourceDictionary Source="/Naterial;component/Themes/FocusVisual.xaml" />
         <ResourceDictionary Source="/Naterial;component/Themes/Fonts.xaml" />
 
+        <ResourceDictionary Source="/Naterial;component/Themes/Hyperlink.xaml" />
         <ResourceDictionary Source="/Naterial;component/Themes/TextBlock.xaml" />
     </ResourceDictionary.MergedDictionaries>
 
 
     <Style x:Key="{x:Static SystemParameters.FocusVisualStyleKey}" BasedOn="{StaticResource Style.FocusVisualDefault}" />
+
+
+    <Style TargetType="Hyperlink" BasedOn="{StaticResource Style.HyperlinkDefault}" />
 
 </ResourceDictionary>

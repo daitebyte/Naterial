@@ -20,44 +20,19 @@
                   HorizontalAlignment="Left" />
         <Separator Background="{DynamicResource Brush.DividerStroke}"
                    Margin="0 16" />
-        <TextBlock Text="H1/Roboto/Light/96px"
-                   Style="{StaticResource Style.TextBlockHeadline1}"
-                   Margin="0 -16 0 0" />
-        <TextBlock Text="H2/Roboto/Light/60px"
-                   Style="{StaticResource Style.TextBlockHeadline2}"
-                   Margin="0 8 0 0" />
-        <TextBlock Text="H3/Roboto/Regular/48px"
-                   Style="{StaticResource Style.TextBlockHeadline3}"
-                   Margin="0 8 0 0" />
-        <TextBlock Text="H4/Roboto/Regular/34px"
-                   Style="{StaticResource Style.TextBlockHeadline4}"
-                   Margin="0 8 0 0" />
-        <TextBlock Text="H5/Roboto/Regular/24px"
-                   Style="{StaticResource Style.TextBlockHeadline5}"
-                   Margin="0 8 0 0" />
-        <TextBlock Text="H6/Roboto/Medium/20px"
-                   Style="{StaticResource Style.TextBlockHeadline6}"
-                   Margin="0 8 0 0" />
-        <TextBlock Text="Subtitle 1/Roboto/Regular/16px"
-                   Style="{StaticResource Style.TextBlockSubtitle1}"
-                   Margin="0 8 0 0" />
-        <TextBlock Text="Subtitle 2/Roboto/Medium/14px"
-                   Style="{StaticResource Style.TextBlockSubtitle2}"
-                   Margin="0 8 0 0" />
-        <TextBlock Text="Body 1/Roboto/Regular/16px"
-                   Style="{StaticResource Style.TextBlockBody1}"
-                   Margin="0 8 0 0" />
-        <TextBlock Text="Body 2/Roboto/Regular/14px"
-                   Style="{StaticResource Style.TextBlockBody2}"
-                   Margin="0 8 0 0" />
-        <TextBlock Text="BUTTON/Roboto/Medium/14px"
-                   Style="{StaticResource Style.TextBlockButton}"
-                   Margin="0 8 0 0" />
-        <TextBlock Text="Caption/Roboto/Regular/12px"
-                   Style="{StaticResource Style.TextBlockCaption}"
-                   Margin="0 8 0 0" />
-        <TextBlock Text="OVERLINE/Roboto/Regular/10px"
-                   Style="{StaticResource Style.TextBlockOverline}"
-                   Margin="0 8 0 0" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Style="{StaticResource Style.TextBlockBody1}">
+                <Hyperlink>
+                    Enabled
+                </Hyperlink>
+            </TextBlock>
+            <TextBlock Style="{StaticResource Style.TextBlockBody1}"
+                       IsEnabled="False"
+                       Margin="16 0 0 0">
+                <Hyperlink>
+                    Disabled
+                </Hyperlink>
+            </TextBlock>
+        </StackPanel>
     </StackPanel>
 </Window>
