@@ -1,0 +1,147 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--#region Style: TextBlockHeadline1 -->
+    <Style x:Key="Style.TextBlockHeadline1"
+           TargetType="TextBlock">
+        <Setter Property="FontWeight"
+                Value="Light" />
+        <Setter Property="FontSize"
+                Value="96" />
+    </Style>
+    <!--#endregion-->
+
+
+    <!--#region Style: TextBlockHeadline2 -->
+    <Style x:Key="Style.TextBlockHeadline2"
+           TargetType="TextBlock">
+        <Setter Property="FontWeight"
+                Value="Light" />
+        <Setter Property="FontSize"
+                Value="60" />
+    </Style>
+    <!--#endregion-->
+
+
+    <!--#region Style: TextBlockHeadline3 -->
+    <Style x:Key="Style.TextBlockHeadline3"
+           TargetType="TextBlock">
+        <Setter Property="FontWeight"
+                Value="Regular" />
+        <Setter Property="FontSize"
+                Value="48" />
+    </Style>
+    <!--#endregion-->
+
+
+    <!--#region Style: TextBlockHeadline4 -->
+    <Style x:Key="Style.TextBlockHeadline4"
+           TargetType="TextBlock">
+        <Setter Property="FontWeight"
+                Value="Regular" />
+        <Setter Property="FontSize"
+                Value="34" />
+    </Style>
+    <!--#endregion-->
+
+
+    <!--#region Style: TextBlockHeadline5 -->
+    <Style x:Key="Style.TextBlockHeadline5"
+           TargetType="TextBlock">
+        <Setter Property="FontWeight"
+                Value="Regular" />
+        <Setter Property="FontSize"
+                Value="24" />
+    </Style>
+    <!--#endregion-->
+
+
+    <!--#region Style: TextBlockHeadline6 -->
+    <Style x:Key="Style.TextBlockHeadline6"
+           TargetType="TextBlock">
+        <Setter Property="FontWeight"
+                Value="Medium" />
+        <Setter Property="FontSize"
+                Value="20" />
+    </Style>
+    <!--#endregion-->
+
+
+
+    <!--#region Style: TextBlockSubtitle1 -->
+    <Style x:Key="Style.TextBlockSubtitle1"
+           TargetType="TextBlock">
+        <Setter Property="FontWeight"
+                Value="Regular" />
+        <Setter Property="FontSize"
+                Value="16" />
+    </Style>
+    <!--#endregion-->
+
+
+    <!--#region Style: TextBlockSubtitle2 -->
+    <Style x:Key="Style.TextBlockSubtitle2"
+           TargetType="TextBlock">
+        <Setter Property="FontWeight"
+                Value="Medium" />
+        <Setter Property="FontSize"
+                Value="14" />
+    </Style>
+    <!--#endregion-->
+
+
+    <!--#region Style: TextBlockBody1 -->
+    <Style x:Key="Style.TextBlockBody1"
+           TargetType="TextBlock">
+        <Setter Property="FontWeight"
+                Value="Regular" />
+        <Setter Property="FontSize"
+                Value="16" />
+    </Style>
+    <!--#endregion-->
+
+
+    <!--#region Style: TextBlockBody2 -->
+    <Style x:Key="Style.TextBlockBody2"
+           TargetType="TextBlock">
+        <Setter Property="FontWeight"
+                Value="Regular" />
+        <Setter Property="FontSize"
+                Value="14" />
+    </Style>
+    <!--#endregion-->
+
+
+    <!--#region Style: TextBlockButton -->
+    <Style x:Key="Style.TextBlockButton"
+           TargetType="TextBlock">
+        <Setter Property="FontWeight"
+                Value="Medium" />
+        <Setter Property="FontSize"
+                Value="14" />
+    </Style>
+    <!--#endregion-->
+
+
+    <!--#region Style: TextBlockCaption -->
+    <Style x:Key="Style.TextBlockCaption"
+           TargetType="TextBlock">
+        <Setter Property="FontWeight"
+                Value="Regular" />
+        <Setter Property="FontSize"
+                Value="12" />
+    </Style>
+    <!--#endregion-->
+
+
+    <!--#region Style: TextBlockOverline -->
+    <Style x:Key="Style.TextBlockOverline"
+           TargetType="TextBlock">
+        <Setter Property="FontWeight"
+                Value="Regular" />
+        <Setter Property="FontSize"
+                Value="10" />
+    </Style>
+    <!--#endregion-->
+
+</ResourceDictionary>

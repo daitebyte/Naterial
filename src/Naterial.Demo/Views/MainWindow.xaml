@@ -1,7 +1,6 @@
 ﻿<Window x:Class="Naterial.Demo.Views.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:nd="http://schemas.daitebyte.com/naterial"
         Title="Naterial.Demo"
         FontFamily="{StaticResource FontFamily.Default}"
         Background="{DynamicResource Brush.BackgroundFill}"
@@ -21,54 +20,44 @@
                   HorizontalAlignment="Left" />
         <Separator Background="{DynamicResource Brush.DividerStroke}"
                    Margin="0 16" />
-        <Label Content="Focus Visual Stroke"
-               Foreground="{DynamicResource Brush.OnSurface.High}"
-               BorderBrush="{DynamicResource Brush.FocusVisualStroke}"
-               BorderThickness="0 0 0 1"
-               Width="270"
-               Height="32"
-               Padding="8 0 0 0"
-               HorizontalAlignment="Left"
-               VerticalContentAlignment="Center" />
-        <StackPanel Orientation="Horizontal"
-                    Margin="0 16 0 0">
-            <Border FocusVisualStyle="{StaticResource Style.FocusVisualDefault}"
-                    Focusable="True"
-                    Background="{DynamicResource Brush.PrimaryFill}"
-                    Width="120"
-                    Height="120" />
-            <Border Focusable="True"
-                    Background="{DynamicResource Brush.SecondaryFill}"
-                    CornerRadius="16"
-                    Width="120"
-                    Height="120"
-                    Margin="16 0 0 0">
-                <Border.FocusVisualStyle>
-                    <Style BasedOn="{StaticResource {x:Static SystemParameters.FocusVisualStyleKey}}">
-                        <Setter Property="nd:FocusVisualAssist.CornerRadius"
-                                Value="18" />
-                    </Style>
-                </Border.FocusVisualStyle>
-            </Border>
-            <Border Focusable="True"
-                    Background="{DynamicResource Brush.ErrorFill}"
-                    CornerRadius="180"
-                    Width="120"
-                    Height="120"
-                    Margin="16 0 0 0">
-                <Border.FocusVisualStyle>
-                    <Style BasedOn="{StaticResource Style.FocusVisualDefault}">
-                        <Setter Property="nd:FocusVisualAssist.BorderBrush"
-                                Value="{DynamicResource Brush.ErrorFill}" />
-                        <Setter Property="nd:FocusVisualAssist.BorderThickness"
-                                Value="2" />
-                        <Setter Property="nd:FocusVisualAssist.CornerRadius"
-                                Value="180" />
-                        <Setter Property="nd:FocusVisualAssist.Margin"
-                                Value="-4" />
-                    </Style>
-                </Border.FocusVisualStyle>
-            </Border>
-        </StackPanel>
+        <TextBlock Text="H1/Roboto/Light/96px"
+                   Style="{StaticResource Style.TextBlockHeadline1}"
+                   Margin="0 -16 0 0" />
+        <TextBlock Text="H2/Roboto/Light/60px"
+                   Style="{StaticResource Style.TextBlockHeadline2}"
+                   Margin="0 8 0 0" />
+        <TextBlock Text="H3/Roboto/Regular/48px"
+                   Style="{StaticResource Style.TextBlockHeadline3}"
+                   Margin="0 8 0 0" />
+        <TextBlock Text="H4/Roboto/Regular/34px"
+                   Style="{StaticResource Style.TextBlockHeadline4}"
+                   Margin="0 8 0 0" />
+        <TextBlock Text="H5/Roboto/Regular/24px"
+                   Style="{StaticResource Style.TextBlockHeadline5}"
+                   Margin="0 8 0 0" />
+        <TextBlock Text="H6/Roboto/Medium/20px"
+                   Style="{StaticResource Style.TextBlockHeadline6}"
+                   Margin="0 8 0 0" />
+        <TextBlock Text="Subtitle 1/Roboto/Regular/16px"
+                   Style="{StaticResource Style.TextBlockSubtitle1}"
+                   Margin="0 8 0 0" />
+        <TextBlock Text="Subtitle 2/Roboto/Medium/14px"
+                   Style="{StaticResource Style.TextBlockSubtitle2}"
+                   Margin="0 8 0 0" />
+        <TextBlock Text="Body 1/Roboto/Regular/16px"
+                   Style="{StaticResource Style.TextBlockBody1}"
+                   Margin="0 8 0 0" />
+        <TextBlock Text="Body 2/Roboto/Regular/14px"
+                   Style="{StaticResource Style.TextBlockBody2}"
+                   Margin="0 8 0 0" />
+        <TextBlock Text="BUTTON/Roboto/Medium/14px"
+                   Style="{StaticResource Style.TextBlockButton}"
+                   Margin="0 8 0 0" />
+        <TextBlock Text="Caption/Roboto/Regular/12px"
+                   Style="{StaticResource Style.TextBlockCaption}"
+                   Margin="0 8 0 0" />
+        <TextBlock Text="OVERLINE/Roboto/Regular/10px"
+                   Style="{StaticResource Style.TextBlockOverline}"
+                   Margin="0 8 0 0" />
     </StackPanel>
 </Window>
