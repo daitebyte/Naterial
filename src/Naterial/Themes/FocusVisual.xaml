@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:ctrl="clr-namespace:Naterial.Controls">
+
+    <!--#region Style: FocusVisualDefault -->
+    <Style x:Key="Style.FocusVisualDefault">
+        <Setter Property="ctrl:FocusVisualAssist.BorderBrush"
+                Value="{DynamicResource Brush.FocusVisualStroke}" />
+        <Setter Property="ctrl:FocusVisualAssist.BorderThickness"
+                Value="1" />
+        <Setter Property="ctrl:FocusVisualAssist.Margin"
+                Value="-2" />
+        <Setter Property="Control.Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Border BorderBrush="{TemplateBinding ctrl:FocusVisualAssist.BorderBrush}"
+                            BorderThickness="{TemplateBinding ctrl:FocusVisualAssist.BorderThickness}"
+                            CornerRadius="{TemplateBinding ctrl:FocusVisualAssist.CornerRadius}"
+                            Margin="{TemplateBinding ctrl:FocusVisualAssist.Margin}"
+                            SnapsToDevicePixels="True" />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--#endregion-->
+
+</ResourceDictionary>

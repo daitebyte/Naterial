@@ -23,4 +23,6 @@
     <SolidColorBrush x:Key="Brush.OutlineStroke" Color="#29000000" o:Freeze="True" />
     <SolidColorBrush x:Key="Brush.DividerStroke" Color="#29000000" o:Freeze="True" />
 
+    <SolidColorBrush x:Key="Brush.FocusVisualStroke" Color="#DE000000" o:Freeze="True" />
+
 </ResourceDictionary>
