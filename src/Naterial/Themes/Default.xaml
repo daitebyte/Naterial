@@ -3,6 +3,7 @@
 
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="/Naterial;component/Themes/FocusVisual.xaml" />
+        <ResourceDictionary Source="/Naterial;component/Themes/Fonts.xaml" />
     </ResourceDictionary.MergedDictionaries>
 
 

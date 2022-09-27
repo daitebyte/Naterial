@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:nd="http://schemas.daitebyte.com/naterial"
         Title="Naterial.Demo"
+        FontFamily="{StaticResource FontFamily.Default}"
         Background="{DynamicResource Brush.BackgroundFill}"
         Foreground="{DynamicResource Brush.OnSurface.High}"
         Width="1280"
