@@ -4,6 +4,7 @@ using System.Windows.Markup;
 
 [assembly: XmlnsDefinition("http://schemas.daitebyte.com/naterial", "Naterial")]
 [assembly: XmlnsDefinition("http://schemas.daitebyte.com/naterial", "Naterial.Controls")]
+[assembly: XmlnsDefinition("http://schemas.daitebyte.com/naterial", "Naterial.Converters")]
 
 [assembly: XmlnsPrefix("http://schemas.daitebyte.com/naterial", "nd")]
 
