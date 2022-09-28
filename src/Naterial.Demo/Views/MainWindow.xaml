@@ -18,6 +18,8 @@
                     Value="{DynamicResource Brush.SurfaceFill }" />
             <Setter Property="Foreground"
                     Value="{DynamicResource Brush.OnSurface.High}" />
+            <Setter Property="nd:CornerRadiusAssist.CornerRadius"
+                    Value="{StaticResource CornerRadius.Default}" />
             <Setter Property="Width"
                     Value="120" />
             <Setter Property="Height"
@@ -34,12 +36,12 @@
                                 <Border Background="{TemplateBinding Background}"
                                         BorderBrush="{TemplateBinding BorderBrush}"
                                         BorderThickness="{TemplateBinding BorderThickness}"
-                                        CornerRadius="4"
+                                        CornerRadius="{TemplateBinding nd:CornerRadiusAssist.CornerRadius}"
                                         SnapsToDevicePixels="True" />
                             </AdornerDecorator>
                             <Border Background="#FFF"
                                     BorderThickness="{TemplateBinding BorderThickness}"
-                                    CornerRadius="4"
+                                    CornerRadius="{TemplateBinding nd:CornerRadiusAssist.CornerRadius}"
                                     Opacity="{TemplateBinding nd:ElevationAssist.Level, Converter={x:Static nd:OverlayConverter.Instance}}" />
                             <ContentPresenter RecognizesAccessKey="True"
                                               Margin="{TemplateBinding Padding}"
@@ -62,42 +64,14 @@
                   HorizontalAlignment="Left" />
         <Separator Background="{DynamicResource Brush.DividerStroke}"
                    Margin="0 16" />
-        <WrapPanel Margin="-8 -8 0 0">
-            <Label Content="0 dp"
-                   BorderBrush="{DynamicResource Brush.OutlineStroke}"
-                   BorderThickness="1"
-                   nd:ElevationAssist.Level="0"
-                   Margin="8" />
-            <Label Content="1 dp"
-                   nd:ElevationAssist.Level="1"
-                   Margin="8" />
-            <Label Content="2 dp"
-                   nd:ElevationAssist.Level="2"
-                   Margin="8" />
-            <Label Content="3 dp"
-                   nd:ElevationAssist.Level="3"
-                   Margin="8" />
-            <Label Content="4 dp"
-                   nd:ElevationAssist.Level="4"
-                   Margin="8" />
-            <Label Content="6 dp"
-                   nd:ElevationAssist.Level="6"
-                   Margin="8" />
-            <Label Content="8 dp"
-                   nd:ElevationAssist.Level="8"
-                   Margin="8" />
-            <Label Content="12 dp"
-                   nd:ElevationAssist.Level="12"
-                   Margin="8" />
-            <Label Content="16 dp"
-                   nd:ElevationAssist.Level="16"
-                   Margin="8" />
-            <Label Content="18 dp"
-                   nd:ElevationAssist.Level="18"
-                   Margin="8" />
-            <Label Content="24 dp"
-                   nd:ElevationAssist.Level="24"
-                   Margin="8" />
-        </WrapPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Default" />
+            <Label Content="0"
+                   nd:CornerRadiusAssist.CornerRadius="0"
+                   Margin="16 0 0 0" />
+            <Label Content="0"
+                   nd:CornerRadiusAssist.CornerRadius="180"
+                   Margin="16 0 0 0" />
+        </StackPanel>
     </StackPanel>
 </Window>
